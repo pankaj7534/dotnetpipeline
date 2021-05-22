@@ -3,7 +3,7 @@ version: 0.2
     
 env:
    variables:
-     PROJECT: dotnetcoretutorial
+     PROJECT: dotnet-core-tutorial
      DOTNET_CORE_RUNTIME: 3.1
 
 phases:   
