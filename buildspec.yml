@@ -3,7 +3,7 @@ version: 0.2
     
 env:
    variables:
-     PROJECT: AWSElasticBeanstalkCICDApp
+     PROJECT: dotnetcoretutorial
      DOTNET_CORE_RUNTIME: 3.1
 
 phases:   
@@ -31,12 +31,12 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: ./build_output
-  discard-paths: no
+ # base-directory: ./build_output
+ # discard-paths: no
 
-reports:
-  ${PROJECT}:
-    file-format: VisualStudioTrx
-    files:
-      - '**/*'
-    base-directory: './testresults'
+#reports:
+  #${PROJECT}:
+    #file-format: VisualStudioTrx
+    #files:
+    #  - '**/*'
+    #base-directory: './testresults'
